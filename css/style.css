@@ -12,6 +12,15 @@ body {
     background-color: #bdf1f8;
 }
 
+/* links utiles */
+.links-utiles {
+  font-size: 16px;
+  line-height: 1.5;
+  /* color: #212529;
+  background-color: #999a9a8a; */
+  padding: 2rem;
+}
+
 a {
     color: #333;
     text-decoration: none;
@@ -146,10 +155,25 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
+    margin-top: 30px;
 }
 .footer-bottom p{
     color: #000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ----------------------------Estilos para el main-index------------------------------ */
 .inicios {
@@ -312,8 +336,29 @@ footer {
   }
   .banner-text a:hover{
     color: #010100;
-    background-color: #4f4c4c9b;
+    background-color:  rgb(32, 78, 78);
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* --------------------Estilos main-quienes-somos------------------------------------ */
 
@@ -376,6 +421,31 @@ footer {
     margin-bottom: 15px;
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------------------------Estilos para el main-contacto----------------------------------------- */
 
@@ -487,6 +557,219 @@ input[type="checkbox"] {
 
 
 
+
+
+
+
+/* ------------------------main-index--------------------- */
+.denuncia{
+  padding-left: 1rem;
+  padding-right: 10px;
+}
+
+/* Estilo del título principal */
+.denuncia h1 {
+  font-size: 36px;
+  margin: 30px 0;
+}
+
+/* Estilo de los párrafos */
+.denuncia  p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+/* Estilo de las listas */
+.denuncia  ul {
+  list-style: disc;
+  margin-left: 30px;
+}
+
+
+
+/* Estilo de los títulos de sección */
+.denuncia h2 {
+  font-size: 24px;
+  margin: 30px 0;
+}
+
+
+
+
+
+
+
+/* ----------ENLACES UTILES----------------------------------------------------- */
+
+
+/* .............aviso-legales................ */
+.aviso-legal h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.aviso-legal h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Estilos para los párrafos */
+.aviso-legal p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+  /* Estilos generales para el cuerpo del documento */
+
+
+  /*........... politida de privacidad............. */
+  .politica-de-privacidad{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .politica-de-privacidad h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .politica-de-privacidad h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .politica-de-privacidad p {
+    margin-bottom: 20px;
+  }
+  /* Estilos para los títulos */
+  /* .........Términos y condiciones de uso del sitio web................ */
+.terminos-y-condiciones-web h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .terminos-y-condiciones-web h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilos para los párrafos */
+  .terminos-y-condiciones-web p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+
+  
+  /* Estilos generales para el cuerpo del documento */
+  .terminos-y-condiciones-web {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #212529;
+    padding: 2rem;
+  }
+        
+/* main-donaciones */
+.container-donaciones {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.container-donaciones img {
+  border-radius: 20px;
+  width: 50%;
+  height: auto;
+  margin-top: 20px
+}
+
+.text-container-d {
+  width: 50%;
+  padding: 20px;
+}
+
+.container-donaciones h2, h3 {
+  color: #333;
+}
+
+.container-donaciones  h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container-donaciones h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.container-donaciones  p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.container-donaciones  ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container-donaciones  li {
+  margin-bottom: 5px;
+}
+
+.container-donaciones  a {
+  color: #0070c0;
+  text-decoration: none;
+  border-bottom: 1px solid #0070c0;
+}
+
+.container-donaciones  a:hover {
+  color: #004080;
+  border-bottom: 2px solid #004080;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------- MEDIAS---------------------------- */
   
   @media (min-width: 2560px) {
     .container {
@@ -649,6 +932,26 @@ input[type="checkbox"] {
     justify-content: center;
     list-style: none;
     text-decoration: none;
+    }
+
+
+    /* main.denuncia-------------------------- */
+    .denuncia{
+      margin: 0;
+      padding: 0;
+      text-align: left;
+    }
+    .denuncia h1{
+      font-size: 25px;
+    }
+    .denuncia p{
+      font-size:19px ; 
+    }
+    .denuncia h2{
+      font-size: 25px;
+    }
+    .denuncia ul{
+      font-size: 15px;
     }
     
     }
