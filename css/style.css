@@ -1034,9 +1034,7 @@ color: #000;}
   .banner-1 img, .banner-2 img {
     width: 250px;
     margin: 0;
-    padding: 0;
-
-  }
+    padding: 0;}
   .banner-text-1, .banner-text-2 {
     max-width: 100%;
     text-align: left;
